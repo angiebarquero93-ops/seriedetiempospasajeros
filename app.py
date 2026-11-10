@@ -17,43 +17,43 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Estilo personalizado con colores oscuros y alta legibilidad para el texto
+# Estilo personalizado con colores limpios y texto oscuro muy legible
 st.markdown("""
     <style>
     .main {
-        background-color: #f1f5f9;
-        color: #0f172a;
+        background-color: #ffffff;
+        color: #111827;
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #0f172a !important;
+        color: #111827 !important;
         font-family: 'Helvetica Neue', sans-serif;
     }
     p, span, label, div {
-        color: #1e293b !important;
+        color: #374151 !important;
     }
     .stMetric {
-        background-color: #ffffff;
+        background-color: #f3f4f6;
         padding: 15px;
         border-radius: 10px;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         border-left: 5px solid #2563eb;
     }
     .stMetric label {
-        color: #475569 !important;
+        color: #4b5563 !important;
         font-weight: 600;
     }
     .stMetric [data-testid="stMetricValue"] {
-        color: #1e293b !important;
+        color: #111827 !important;
         font-weight: bold;
     }
     .stTabs [data-baseweb="tab-list"] {
         gap: 10px;
     }
     .stTabs [data-baseweb="tab"] {
-        background-color: #cbd5e1;
+        background-color: #e5e7eb;
         border-radius: 6px 6px 0px 0px;
         padding: 10px 20px;
-        color: #0f172a !important;
+        color: #374151 !important;
         font-weight: bold;
     }
     .stTabs [aria-selected="true"] {
